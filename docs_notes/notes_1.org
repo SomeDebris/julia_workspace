@@ -1,5 +1,5 @@
 #+TITLE: Julia documentation notes
-* P1:
+* Introduction:
 - Julia is a high-performance language (approaching C) that tries to look like a
   "slow dynamic language" (python).
 - Read through "Performance tips" if your thing is slow. Julia's speed is a little
@@ -8,4 +8,10 @@
   matlab, python, and R, but is more general. Tries to combine dynamic languages
   with maths.
 - Uniquely, in Julia, types are inferred but can also be declared.
-- The core feature of Julia is
+- The core feature of Julia is that functions are defined by the differing types
+  of their arguments. The "best choice" function is the one that's actually run
+  when the function is called. Thats "Multiple Dispatch" for ya. Differs from
+  "Object Oriented Dispatch", as the type of arguments used in an operation
+  can change how it behaves.
+- Julia was designed to be performant, even though it's dynamic. This is unusual
+  and is why you may want to use this language.
