@@ -1,0 +1,11 @@
+#+TITLE: Julia documentation notes
+* P1:
+- Julia is a high-performance language (approaching C) that tries to look like a
+  "slow dynamic language" (python).
+- Read through "Performance tips" if your thing is slow. Julia's speed is a little
+  different than things you're probably used to. It can become as fast as C!
+- Julia uses some unique tech (e.g. JIT, uses LLVM), has pretty equations like
+  matlab, python, and R, but is more general. Tries to combine dynamic languages
+  with maths.
+- Uniquely, in Julia, types are inferred but can also be declared.
+- The core feature of Julia is
