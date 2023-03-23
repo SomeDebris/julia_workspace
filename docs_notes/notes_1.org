@@ -1,4 +1,6 @@
 #+TITLE: Julia documentation notes
+#+startup: indent
+
 * Introduction:
 - Julia is a high-performance language (approaching C) that tries to look like a
   "slow dynamic language" (python).
