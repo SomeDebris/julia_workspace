@@ -17,3 +17,23 @@
   can change how it behaves.
 - Julia was designed to be performant, even though it's dynamic. This is unusual
   and is why you may want to use this language.
+
+* Getting Started
+- You should read the MATLAB Differences section.
+- use `include("file.jl")` to eval expressions in the file file.jl
+- check out the Learning page of the julia website
+
+* Variables
+- names begin with letter OR unicode greater than 00A0.
+- operators are used like variables:
+  - `(+)` -> Addition Function
+- See this section for an in depth description of unicode stuff.
+- cannot use built-in keywords in var names.
+  
+** Style conventions
+- Var names lowercase
+- seperate_words_with_underscore. but try to not use them!
+- Types and Modules begin with Capital letter. UpperCamelCase.
+- functions and macros are lowercase, withoutunderscores.
+- functions that WRITE TO THEIR ARGUMENTS end in !. can be called
+  "mutating" or "in-place" functions.
